@@ -1,0 +1,8 @@
+# Permitir a todos los rastreadores web acceder a todo el contenido del sitio.
+User-agent: *
+Allow: /
+
+Disallow: /galeria/
+
+# Ubicación del Sitemap
+Sitemap: https://proxper.com.mx/sitemap.xml

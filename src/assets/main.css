@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+#FFFFFF
+#1AB0DE
+#4B2A7E
+#24395F
+#000000
+#FBFBFB
+#FAFAFA
+*/
+
+@layer components {
+  .container {
+    @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+  }
+
+  .bg-gradient-radial {
+    background: radial-gradient(145.19% 74.62% at 56.02% 43.56%, rgba(234, 0, 41, 0.64) 0%, rgba(24, 24, 24, 0.64) 100%);
+  }
+
+  .bg-perfil {
+    background-image: url('@/assets/img/bg-perfil.png');
+    background-size: cover;
+  }
+
+  .bg-programa {
+    background: #0c254d;
+    background: linear-gradient(45deg, #0c254d 0%, #440076 40%, #0c254d 80%);
+    background: -webkit-linear-gradient(45deg, #0c254d 0%, #440076 40%, #0c254d 80%);
+    background: -moz-linear-gradient(45deg, #0c254d 0%, #440076 40%, #0c254d 80%);
+  }
+
+  .titulo-seccion {
+    @apply text-sm font-normal font-lemon-normal uppercase tracking-[0.56px];
+  }
+
+  /* letter-spacing: 0.098rem; */
+  .titulo {
+    @apply font-lemon-normal text-3xl md:text-[3.196rem] md:leading-[3.595rem] pt-4 mb-4;
+  }
+}
+
+@font-face {
+  font-family: 'lemon-bold';
+  src: url('@/assets/font/Lemon/lemon-milk-pro-bold.eot'); /* IE9+ Compat Modes */
+  src: url('@/assets/font/Lemon/lemon-milk-pro-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('@/assets/font/Lemon/lemon-milk-pro-bold.woff2') format('woff2'),
+    /* Super modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-bold.woff') format('woff'), /* Modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lemon-normal';
+  src: url('@/assets/font/Lemon/lemon-milk-pro-regular.eot'); /* IE9+ Compat Modes */
+  src: url('@/assets/font/Lemon/lemon-milk-pro-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('@/assets/font/Lemon/lemon-milk-pro-regular.woff2') format('woff2'),
+    /* Super modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-regular.woff') format('woff'), /* Modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lemon-light';
+  src: url('@/assets/font/Lemon/lemon-milk-pro-ultra-light.otf'); /* IE9+ Compat Modes */
+  src: url('@/assets/font/Lemon/lemon-milk-pro-ultra-light.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('@/assets/font/Lemon/lemon-milk-pro-ultra-light.woff2') format('woff2'),
+    /* Super modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-ultra-light.woff') format('woff'), /* Modern browsers */ url('@/assets/font/Lemon/lemon-milk-pro-ultra-light.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital@0;1&display=swap'); */
+
+.lato-thin {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-servicios {
+  background-image: url('@/assets/img/BackProductos.png');
+  background-size: cover;
+  margin-left: 120px;
+  border-top-left-radius: 64px;
+  border-bottom-left-radius: 64px;
+}
+
+.texto-con-bordes,
+.texto-con-bordes-red {
+  -webkit-text-fill-color: transparent;
+  /* -webkit-text-stroke-width: 1px; */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.texto-con-bordes-red {
+  -webkit-text-stroke-color: rgb(204, 0, 50);
+}
+
+.hero-text {
+  /* @apply text-white leading-[normal] uppercase; */
+  @apply text-black leading-[normal];
+  text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.32);
+}
