@@ -1,9 +1,9 @@
 // src/router/index.js
-import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router' // ¡Importa createMemoryHistory!
+import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'; // ¡Importa createMemoryHistory!
 
 const routes = [
   {
-    path: '/',
+    path: '/2025',
     name: 'Home',
     component: () => import('@/views/HomeView.vue'),
   },
@@ -13,7 +13,7 @@ const routes = [
     name: 'NotFound',
     component: () => import('@/views/NotFound.vue'),
   },
-]
+];
 
 const router = createRouter({
   // **Esta es la línea clave que debes cambiar**
@@ -21,6 +21,6 @@ const router = createRouter({
   // y createWebHistory() para el cliente (navegador)
   history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
   routes,
-})
+});
 
-export default router
+export default router;

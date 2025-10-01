@@ -1,6 +1,6 @@
 <template>
   <!-- <section id="section1" class="container flex flex-col justify-items-center items-center justify-content-center min-h-lvh py-[5rem]"> -->
-  <section id="section1" class="container flex flex-col justify-items-center items-center justify-content-center py-[5rem] relative space-y-5">
+  <section id="section1" class="container flex flex-col justify-items-center items-center justify-center min-h-lvh py-[5rem] relative space-y-5 text-center 2xl:min-h-[900px]">
     <h1 class="lato-bold text-[2.138rem] text-[#24395F]">Cumple tu</h1>
     <img class="" :src="meta" width="843" loading="lazy" />
     <h2 class="lato-regular text-[2.138rem] text-[#24395F]">
@@ -8,7 +8,7 @@
       <span class="lato-bold">opción ideal</span>
       para que lo consigas
     </h2>
-    <div class="hidden absolute -top-28 left-10 -z-10 lg:block">
+    <div class="hidden absolute -top-28 left-10 -z-10 sm:block">
       <img src="@/assets/img/pleca_1.png" class="w-[76px]" alt="" width="76" />
     </div>
     <div class="absolute -bottom-80 right-10 -z-10">

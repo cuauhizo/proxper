@@ -1,56 +1,38 @@
+import segubecaImg from '@/assets/img/productos/Segubeca.png';
+import realizaImg from '@/assets/img/productos/Realiza.png';
+import vidaMujerImg from '@/assets/img/productos/VidaMujer.png';
+import orvi99Img from '@/assets/img/productos/Orvi99.png';
+import imaginaSerImg from '@/assets/img/productos/ImaginaSer.png';
+
 export const productos = [
   {
     id: 1,
-    imagen: 'Segubeca.png',
+    imagen: segubecaImg,
     nombre: 'Segubeca',
-    titulo: 'Eu ipsum est proident fugiat Minim excepteur Occaecat et velit.',
+    titulo: 'Las mejores universidades para tus hijos o nietos.',
   },
   {
     id: 2,
-    imagen: 'Realiza.png',
+    imagen: realizaImg,
     nombre: 'Realiza',
-    titulo: 'Sit non Occaecat et velit deserunt magna.',
+    titulo: 'Fondo de inversión integral con protección.',
   },
   {
     id: 3,
-    imagen: 'Segubeca.png',
+    imagen: vidaMujerImg,
     nombre: 'Vida Mujer',
-    titulo: 'Mollit Occaecat fugiat Minim excepteur et deserunt.',
+    titulo: 'Con especial atención a diagnósticos comunes en las mujeres.',
+  },
+  {
+    id: 4,
+    imagen: orvi99Img,
+    nombre: 'Orvi 99',
+    titulo: 'Aprovecha tu tiempo en el mar para llegar a buen puerto cuando hayan pasado los años',
   },
   {
     id: 5,
-    imagen: 'Realiza.png',
-    nombre: 'Unico',
-    titulo: 'Ullamco fugiat Minim excepteur sit.',
-  },
-  {
-    id: 7,
-    imagen: 'Segubeca.png',
-    nombre: 'Crédito',
-    titulo: 'Commodo fugiat Minim excepteur Occaecat labore do.',
-  },
-  {
-    id: 8,
-    imagen: 'Realiza.png',
-    nombre: 'Japifon',
-    titulo: 'Reprehenderit Occaecat et velit labore do.',
-  },
-  {
-    id: 9,
-    imagen: 'Segubeca.png',
-    nombre: 'Círculo',
-    titulo: 'Occaecat et velit fugiat Minim excepteur Minim excepteur.',
-  },
-  {
-    id: 10,
-    imagen: 'Realiza.png',
-    nombre: 'Efisys',
-    titulo: 'Nisi velit Minim fugiat Minim excepteur excepteur velit.',
-  },
-  {
-    id: 14,
-    imagen: 'Segubeca.png',
-    nombre: 'HR Ratings',
-    titulo: 'Minim fugiat Minim excepteur fugiat Minim excepteur sit excepteur.',
+    imagen: imaginaSerImg,
+    nombre: 'Imagina Ser',
+    titulo: 'Protégete contra accidentes o invalidez.',
   },
 ];

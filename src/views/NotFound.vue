@@ -9,7 +9,7 @@
       </h2>
     </div>
     <div class="w-full flex justify-center items-center">
-      <router-link to="/" class="inline-flex gap-2 rounded-full transition-all mt-2 font-lemon-normal text-[15px] justify-center items-center bg-[#1AB0DE] text-white px-8 py-2">Ir a inicio</router-link>
+      <router-link to="/2025" class="inline-flex gap-2 rounded-full transition-all mt-2 font-lemon-normal text-[15px] justify-center items-center bg-[#1AB0DE] text-white px-8 py-2">Ir a inicio</router-link>
     </div>
   </section>
 </template>
