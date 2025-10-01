@@ -1,9 +1,9 @@
 <template>
-  <section id="section3" class="container grid gap-12 justify-items-center items-center py-10 relative md:py-20" data-aos-anchor-placement="center-bottom">
-    <div class="text-center p-12 space-y-4 shadow-md rounded-[64px] bg-white text-[#24395F] max-w-[845px]" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+  <section id="section3" class="container grid gap-3 md:gap-12 justify-items-center items-center py-10 relative md:py-20" data-aos-anchor-placement="center-bottom">
+    <div class="text-center p-6 px-3 md:p-12 space-y-4 shadow-md rounded-[64px] bg-white text-[#24395F] w-full md:max-w-[845px]" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <h2 class="">¿Quienes somos?</h2>
       <p class="lato-bold text-[2.138rem]">Expertos en Seguridad Financiera</p>
-      <img class="max-w-[749px] rounded-lg" width="749" loading="lazy" src="@/assets/img/QuienesSomosClubLogros.png" alt="Gallery image" />
+      <img class="md:max-w-[749px] rounded-lg" width="749" loading="lazy" src="@/assets/img/QuienesSomosClubLogros.png" alt="Gallery image" />
       <p class="mb-6 text-[0.938rem]">
         <span class="lato-bold"><i>Proxper Asesores</i></span>
         , es una promotoría que cuenta con una amplia experiencia en el mercado financiero. Contamos con un equipo de asesores altamente capacitados, los cuales logran ofrecer productos a la medida de cada cliente, mismos que son sensibilizados por

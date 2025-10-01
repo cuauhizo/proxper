@@ -8,7 +8,7 @@
       <span class="lato-bold">opción ideal</span>
       para que lo consigas
     </h2>
-    <div class="absolute -top-28 left-10 -z-10">
+    <div class="hidden absolute -top-28 left-10 -z-10 lg:block">
       <img src="@/assets/img/pleca_1.png" class="w-[76px]" alt="" width="76" />
     </div>
     <div class="absolute -bottom-80 right-10 -z-10">
