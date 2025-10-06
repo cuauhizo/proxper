@@ -2,7 +2,7 @@
   import { useHead } from '@vueuse/head';
   import Hero from '@/components/hero.vue';
   import Productos from '@/components/productos.vue';
-  import Sede from '@/components/nosotros.vue';
+  import Nosotros from '@/components/nosotros.vue';
 
   useHead({
     title: 'Proxper | Seguridad financiera',
@@ -37,5 +37,5 @@
 <template>
   <Hero />
   <Productos />
-  <Sede />
+  <Nosotros />
 </template>

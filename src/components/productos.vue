@@ -129,10 +129,10 @@
             <div v-for="(producto, index) in productos" :key="producto.id" class="bg-white rounded-full p-2 producto-card flex-shrink-0 min-h-[597px] text-center">
               <img :src="producto.imagen" :alt="producto.nombre" class="w-[290px] mb-5" loading="lazy" />
               <div>
-                <h2 :class="['text-center text-[1.502rem] uppercase mb-3', getTitleColorClass(index)]">
-                  {{ producto.nombre }}
+                <h2 :class="['text-center text-[1.502rem] uppercase lato-black mb-3', getTitleColorClass(index)]">
+                  {{ producto.titulo }}
                 </h2>
-                <p class="m-auto max-w-[242px]">{{ producto.titulo }}</p>
+                <p class="m-auto max-w-[242px]">{{ producto.descripcion }}</p>
               </div>
             </div>
           </div>
