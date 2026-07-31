@@ -3,7 +3,7 @@ import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/2025',
+    path: '/',
     name: 'Home',
     component: () => import('@/views/HomeView.vue'),
   },

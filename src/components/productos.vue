@@ -107,13 +107,13 @@
           <div class="grid items-baseline">
             <div class="grid gap-6 items-center justify-content-center md:grid-cols-2 md:max-w-[300px]">
               <span class="lato-bold text-[2.138rem] text-[#24395F] text-center md:text-end leading-7">Tu Próximo</span>
-              <div class="grid w-[264px] mx-auto">
+              <div class="grid w-[245px] mx-auto">
                 <img src="@/assets/img/tu_proximo_nivel.png" alt="" />
               </div>
             </div>
             <div>
               <p class="mb-6 md:max-w-[30.188rem]">Llega a la edad de retiro y vive como siempre soñaste. Estás en un momento perfecto para empezar un ahorro con propósito y retirarte con toda la tranquilidad.</p>
-              <a href="#" class="flex items-center gap-3 bg-[#1AB0DE] text-white md:text-[1.335rem] w-fit rounded-full shadow-sm py-1 px-10 pr-2 md:gap-8">
+              <a href="https://api.whatsapp.com/send?phone=+5533352073&amp;text=¡Hola!%20Me%20interesa%20recibir%20más%20información%20de%20sus%20productos" target="_blank" rel="noopener" class="flex items-center gap-3 bg-[#1AB0DE] text-white md:text-[1.335rem] w-fit rounded-full shadow-sm py-1 px-10 pr-2 md:gap-8">
                 <span style="vertical-align: inherit"><span style="vertical-align: inherit">Agenda tu cita aquí</span></span>
                 <i><img src="@/assets/img/icon-contacto.svg" alt="icono contacto" width="66" /></i>
               </a>

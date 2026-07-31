@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="hidden md:flex justify-end items-center">
-            <a href="#" target="_blank" rel="noopener noreferrer" class="flex gap-2 rounded-full justify-center items-center bg-[#1AB0DE] py-1.5 text-[15px] min-w-28 w-full md:px-2 lg:px-0">
+            <a href="tel:+525533352073" target="_blank" rel="noopener noreferrer" class="flex gap-2 rounded-full justify-center items-center bg-[#1AB0DE] py-1.5 text-[15px] min-w-28 w-full md:px-2 lg:px-0">
               <span class="hidden lg:flex">Llámanos:</span>
               <strong>55 3335 2073</strong>
             </a>
@@ -127,13 +127,13 @@
           </div>
           <div class="w-full sm:w-1/2 p-4 sm:text-end">
             <span class="inline-flex gap-4 mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-              <a class="cursor-pointer" href="https://www.facebook.com/" alt="Facebook" target="_blank">
+              <a class="cursor-pointer" href="https://www.facebook.com/ProxperAsesores/" alt="Facebook" target="_blank">
                 <img src="@/assets/img/Facebook_white.png" alt="Facebook" width="32" />
               </a>
-              <a class="cursor-pointer" href="https://www.linkedin.com/" alt="Linkedin" target="_blank">
+              <a class="cursor-pointer" href="https://www.linkedin.com/company/proxper-asesores/" alt="Linkedin" target="_blank">
                 <img src="@/assets/img/LinkedIN_white.png" alt="Linkedin" width="32" />
               </a>
-              <a class="cursor-pointer" href="https://x.com/" alt="Instagram" target="_blank">
+              <a class="cursor-pointer" href="https://www.instagram.com/proxper_asesores/" alt="Instagram" target="_blank">
                 <img src="@/assets/img/Instagram_white.png" alt="Instagram" width="32" />
               </a>
             </span>
@@ -150,8 +150,8 @@
         </div>
         <div class="w-full sm:w-1/2 md:w-2/5 p-4 py-0 sm:text-end">
           <ul>
-            <li><a href="#" class="text-[#1AB0DE]">emprendedores@proxper.com.mx</a></li>
-            <li><a href="#" class="text-[#1AB0DE]">5533352073</a></li>
+            <li><a href="mailto:emprendedores@proxper.com.mx" class="text-[#1AB0DE]">emprendedores@proxper.com.mx</a></li>
+            <li><a href="tel:+525533352073" class="text-[#1AB0DE]">5533352073</a></li>
           </ul>
         </div>
       </div>
